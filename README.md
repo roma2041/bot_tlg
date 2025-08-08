@@ -128,14 +128,7 @@ bot_cursor/
 │   ├── date_utils.py
 │   ├── request_time.py
 │   └── validators.py
-├── logs/                 # Логи работы бота
-│   └── bot.log
-└── tests/                # Тесты
-    ├── test_admin_view.py
-    ├── test_callback.py
-    ├── test_db.py
-    ├── test_operators.py
-    └── test_role_check.py
+
 ```
 
 ## 🎯 Функциональность
