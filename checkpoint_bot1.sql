@@ -70,9 +70,6 @@ CREATE TABLE `users` (
 -- Дамп данных таблицы `users`
 --
 
-INSERT INTO `users` (`id`, `telegram_id`, `username`, `role`, `created_at`, `user_id`, `full_name`, `blocked`) VALUES
-(1, 0, 'Gas101010', 'admin', '2025-07-16 09:55:53', 6035324963, 'Родник', 0);
-
 --
 -- Индексы сохранённых таблиц
 --
