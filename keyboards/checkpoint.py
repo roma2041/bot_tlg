@@ -3,31 +3,32 @@
 def get_checkpoint_keyboard():
     return InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("Изварино", callback_data='checkpoint_1'),
-            InlineKeyboardButton("Волошино", callback_data='checkpoint_2'),
-            InlineKeyboardButton("Гуково", callback_data='checkpoint_3')
+            InlineKeyboardButton("Пункт № 1", callback_data='checkpoint_1'),
+            InlineKeyboardButton("Пункт № 2", callback_data='checkpoint_2'),
+            InlineKeyboardButton("Пункт № 3", callback_data='checkpoint_3')
         ],
         [
-            InlineKeyboardButton("Новошахтинск", callback_data='checkpoint_4'),
-            InlineKeyboardButton("Чертково", callback_data='checkpoint_5'),
-            InlineKeyboardButton("Успенка", callback_data='checkpoint_6')
+            InlineKeyboardButton("Пункт № 4", callback_data='checkpoint_4'),
+            InlineKeyboardButton("Пункт № 5", callback_data='checkpoint_5'),
+            InlineKeyboardButton("Пункт № 6", callback_data='checkpoint_6')
         ],
         [
-            InlineKeyboardButton("Вознесенка", callback_data='checkpoint_7'),
-            InlineKeyboardButton("Куйбышево", callback_data='checkpoint_8'),
-            InlineKeyboardButton("Переход К2", callback_data='checkpoint_9')
+            InlineKeyboardButton("Пункт № 7", callback_data='checkpoint_7'),
+            InlineKeyboardButton("Пункт № 8", callback_data='checkpoint_8'),
+            InlineKeyboardButton("Пункт № 9", callback_data='checkpoint_9')
         ]
     ])
 
 def get_checkpoint_names():
     return [
-        "Изварино",
-        "Волошино",
-        "Гуково",
-        "Новошахтинск",
-        "Чертково",
-        "Успенка",
-        "Вознесенка",
-        "Куйбышево",
-        "Переход К2"
+        "Пункт № 1",
+        "Пункт № 2",
+        "Пункт № 3",
+        "Пункт № 4",
+        "Пункт № 5",
+        "Пункт № 6",
+        "Пункт № 7",
+        "Пункт № 8",
+        "Пункт № 9"
     ]
+
